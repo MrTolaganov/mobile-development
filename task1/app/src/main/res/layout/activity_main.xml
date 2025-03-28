@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="36dp">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etMiddleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Middle Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etPassportSerial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Passport Serial" />
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth (YYYY-MM-DD)"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingTop="20dp" />
+
+</LinearLayout>
